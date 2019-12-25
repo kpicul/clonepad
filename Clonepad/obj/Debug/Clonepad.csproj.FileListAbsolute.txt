@@ -1,0 +1,9 @@
+D:\Clonepad\Clonepad\bin\Debug\Clonepad.exe.config
+D:\Clonepad\Clonepad\bin\Debug\Clonepad.exe
+D:\Clonepad\Clonepad\bin\Debug\Clonepad.pdb
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.csprojAssemblyReference.cache
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.Properties.Resources.resources
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.csproj.GenerateResource.cache
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.exe
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.pdb
+D:\Clonepad\Clonepad\obj\Debug\Clonepad.Clonepad.resources
