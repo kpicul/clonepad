@@ -11,3 +11,8 @@ Simple text editor for Windows.
 * Copy/Paste
 * Undo/Redo
 * Right Click menu
+
+### Version 0.2
+* Tabs
+* Encodings
+* Line annotations
