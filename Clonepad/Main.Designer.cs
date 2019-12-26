@@ -32,6 +32,7 @@
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.fileOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.fileSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.fileExit = new System.Windows.Forms.ToolStripMenuItem();
             this.editMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.editUndo = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,7 +43,6 @@
             this.helpAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox = new System.Windows.Forms.RichTextBox();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.mainMenu.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -73,21 +73,26 @@
             // fileOpen
             // 
             this.fileOpen.Name = "fileOpen";
-            this.fileOpen.Size = new System.Drawing.Size(180, 22);
+            this.fileOpen.Size = new System.Drawing.Size(103, 22);
             this.fileOpen.Text = "Open";
             this.fileOpen.Click += new System.EventHandler(this.fileOpen_Click);
             // 
             // fileSave
             // 
             this.fileSave.Name = "fileSave";
-            this.fileSave.Size = new System.Drawing.Size(180, 22);
+            this.fileSave.Size = new System.Drawing.Size(103, 22);
             this.fileSave.Text = "Save";
             this.fileSave.Click += new System.EventHandler(this.fileSave_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(100, 6);
             // 
             // fileExit
             // 
             this.fileExit.Name = "fileExit";
-            this.fileExit.Size = new System.Drawing.Size(180, 22);
+            this.fileExit.Size = new System.Drawing.Size(103, 22);
             this.fileExit.Text = "Exit";
             this.fileExit.Click += new System.EventHandler(this.fileExit_Click);
             // 
@@ -119,12 +124,14 @@
             this.editCopy.Name = "editCopy";
             this.editCopy.Size = new System.Drawing.Size(180, 22);
             this.editCopy.Text = "Copy";
+            this.editCopy.Click += new System.EventHandler(this.editCopy_Click);
             // 
             // editPaste
             // 
             this.editPaste.Name = "editPaste";
             this.editPaste.Size = new System.Drawing.Size(180, 22);
             this.editPaste.Text = "Paste";
+            this.editPaste.Click += new System.EventHandler(this.editPaste_Click);
             // 
             // helpMenu
             // 
@@ -137,9 +144,9 @@
             // helpAbout
             // 
             this.helpAbout.Name = "helpAbout";
-            this.helpAbout.Size = new System.Drawing.Size(180, 22);
+            this.helpAbout.Size = new System.Drawing.Size(107, 22);
             this.helpAbout.Text = "About";
-            this.helpAbout.Click += new System.EventHandler(this.cardToolStripMenuItem_Click);
+            this.helpAbout.Click += new System.EventHandler(this.helpAbout_click);
             // 
             // tableLayoutPanel1
             // 
@@ -168,13 +175,9 @@
             this.textBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
             this.textBox.Size = new System.Drawing.Size(836, 485);
             this.textBox.TabIndex = 0;
+            this.textBox.TabStop = false;
             this.textBox.Text = "";
             this.textBox.WordWrap = false;
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // Clonepad
             // 

@@ -13,6 +13,7 @@ namespace Clonepad
 {
     public partial class Clonepad : Form
     {
+        private Operations operations;
         public Clonepad()
         {
             InitializeComponent();
@@ -20,12 +21,7 @@ namespace Clonepad
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void cardToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
+            operations = new Operations();
         }
 
         private void fileExit_Click(object sender, EventArgs e)
@@ -67,6 +63,22 @@ namespace Clonepad
                 sr.Dispose();
                 sr.Close();
             }
+        }
+
+        private void helpAbout_click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.Show();
+        }
+
+        private void editCopy_Click(object sender, EventArgs e)
+        {
+            operations.copy(textBox.SelectedText);
+        }
+
+        private void editPaste_Click(object sender, EventArgs e)
+        {
+            textBox.Text += operations.paste();
         }
     }
 }
